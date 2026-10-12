@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart City Information</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#initiatives">Initiatives</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#transport">Transport</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Home -->
+
+<section id="home" class="hero">
+
+    <h2>Welcome to Smart City</h2>
+
+    <p>
+        Smart cities use modern technology to improve transportation,
+        healthcare, education, safety and environmental sustainability.
+    </p>
+
+    <button onclick="scrollToSection()">
+        Explore
+    </button>
+
+</section>
+
+<!-- About -->
+
+<section id="about">
+
+    <h2>About Smart City</h2>
+
+    <p>
+        A Smart City is an urban area that uses digital technology
+        to provide better public services, improve quality of life,
+        reduce pollution and make city management more efficient.
+    </p>
+
+</section>
+
+<!-- Initiatives -->
+
+<section id="initiatives">
+
+    <h2>Smart City Initiatives</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Smart Traffic</h3>
+            <p>AI based traffic control reduces congestion.</p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Lighting</h3>
+            <p>Automatic LED street lights save electricity.</p>
+        </div>
+
+        <div class="card">
+            <h3>Waste Management</h3>
+            <p>Smart bins help maintain cleanliness.</p>
+        </div>
+
+        <div class="card">
+            <h3>Digital Governance</h3>
+            <p>Citizens can access government services online.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Public Services -->
+
+<section id="services">
+
+    <h2>Public Services</h2>
+
+    <ul>
+        <li>🏥 Hospitals</li>
+        <li>🏫 Schools</li>
+        <li>🚔 Police</li>
+        <li>🚒 Fire Services</li>
+        <li>☎ Emergency Helpline</li>
+    </ul>
+
+</section>
+
+<!-- Transport -->
+
+<section id="transport">
+
+    <h2>Smart Transportation</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Metro Rail</h3>
+            <p>Fast and eco-friendly transport.</p>
+        </div>
+
+        <div class="card">
+            <h3>Electric Buses</h3>
+            <p>Reduce pollution and fuel consumption.</p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Parking</h3>
+            <p>Find available parking easily.</p>
+        </div>
+
+        <div class="card">
+            <h3>GPS Tracking</h3>
+            <p>Track public transport in real time.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="Enter Your Email"
+            required
+        >
+
+        <textarea
+            id="message"
+            placeholder="Enter Your Message"
+            rows="5"
+            required
+        ></textarea>
+
+        <button type="submit">
+            Submit
+        </button>
+
+    </form>
+
+    <div id="result"></div>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+    <p>
+        © 2026 Smart City Information Website | Developed for Web Development MSE
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
